@@ -1,0 +1,74 @@
+.main{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+
+}
+.logo{
+    display: flex;
+
+}
+.keys{
+    display: inline-block;
+    margin: 0 20px;
+}
+.keys>a{
+    margin: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.icons{
+    width: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#reviewOptions{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    border: 1px red;
+}
+#reviewOptions > button{
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10%;
+}
+.background{
+    height: 300px;
+    background-image:  url("https://static.tacdn.com/img2/brand/home/homemar2022_mw_trans.webp");
+
+} 
+.background>button{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10%;
+    
+}
+.task4{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAF1ED;
+}
+#seeTheList{
+    padding-left: 30px;
+}
+.task4>img{
+height: 100%;
+width: 40%;
+}
