@@ -1,4 +1,5 @@
-let container = document.getElementById("BestTours");
+let container = document.getElementById("Best-Tours");
+let fetchedData = [];
 
 fetch("https://6398c193fe03352a94dd78c2.mockapi.io/place")
 .then((responseObject) => {

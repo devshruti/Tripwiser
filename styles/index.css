@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    width: 100%;
+}
 .main{
     width: 80%;
     margin: auto;
@@ -9,16 +16,23 @@
     top: 0;
     background-color: white;
     align-items: center;
+    padding: 1.5%;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 
 }
 .logo{
     display: flex;
+    margin: auto;
+}
 
+.keys > a:hover{
+   background-color: rgb(185, 177, 177);
 }
 .keys{
     display: inline-block;
     margin: 0 20px;
+    margin: auto;
+    border-radius: 5px;
 }
 .keys>a{
     margin: 5px;
@@ -36,30 +50,36 @@
     justify-content: space-between;
     margin: auto;
     padding: 20px;
-    border: 1px red;
 }
 #reviewOptions > button{
     background-color: white;
     width: 180px;
     height: 50px;
     font-size: 16px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 .background{
-    height: 300px;
     background-image:  url("https://static.tacdn.com/img2/brand/home/homemar2022_mw_trans.webp");
-
+    margin: auto;
+    display: flex;
+    background-size: cover;
+    height: 348px;
+    background-blend-mode: darken;
 } 
-.background>button{
+ #search{
+   margin: auto;
     display: flex;
     align-items: center;
     width: 60%;
     height: 50px;
     background-color: white;
-    border-radius: 10%;
-    
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: start;
+    border: 0;
 }
 .task4{
+    margin: auto;
     height: 200px;
     display: flex;
     justify-content: space-between;
@@ -67,8 +87,61 @@
 }
 #seeTheList{
     padding-left: 30px;
+
 }
 .task4>img{
 height: 100%;
 width: 40%;
+margin: auto;
+}
+#Footer{
+    /* width: 80%; */
+   background-color: #FAF1ED;
+}
+#inner{
+    width: 80%;
+    margin: auto;
+}
+.foot1{
+    display: flex;
+    margin: 2%;
+}
+.foot1>div{
+    margin: 1%;
+}
+.foot1>div>p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.foot1>div>li{
+    list-style: none;
+}
+.foot1>div>li>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+     
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+}
+.query>a{
+    font-weight: 20px;
+    font-size: 18px;
+    color: black;
+    padding: 2%;
+}
+.inr{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inr>select{
+    display: flex;
+    margin: 5%;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
 }
