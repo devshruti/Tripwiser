@@ -1,0 +1,74 @@
+.main{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: "Trip Sans VF", "Trip Sans" , Arial, Helvetica, sans-serif;
+}
+#logoimg{
+    width: 50px;
+    border-radius: 30px;
+    margin: 0;
+}
+.inner{
+    margin:auto;
+    margin-top:5%;
+    border-radius: 11px;
+    padding:80px 25px;
+    width:350px;
+    height:auto;
+}
+.inner > h2{
+    font-size: 30px;
+}
+.form > input{
+    margin:8px 0px;
+    height:30px;
+    width:100%;
+    border-radius: 20px;
+    padding-left:14px;
+}
+.form > input:focus{
+    border:none;
+    outline:none;
+}
+.form > input::placeholder{
+    padding-left: 4px;
+}
+ .btn{
+    width:100px;
+    border-radius:20px;
+    padding:5px;
+    cursor:pointer;
+    font-weight:600;
+    margin-top:16px;  
+    background-color: transparent;
+}
+.btn:hover{
+    background-color: rgb(190, 189, 196);
+}
+.signup{
+    padding:40px 10px;
+    width:100%;
+    font-size: 18px;
+    display:inline-block;
+    text-align:center;
+}
+.socialLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialLogo > a{
+    background-color: #fff;
+    width:30px;
+    height:30px;
+    margin:2px 25px;
+    padding:5px;
+    border-radius:20px;
+}
+.socialLogo > a > img{
+    height:40px;
+    width:40px;
+}
