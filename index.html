@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>home page</title>
+</head>
+
+<body>
+    <div id="home">
+        <!-- <div class="main"> -->
+
+                <nav class="navbar">
+                    <div class="logo">
+                        <img id="logoimg" src="logo.png" alt="logo">
+                        <h1>Tripwiser</h1>
+                    </div>
+                    <div class="keys">
+
+                        <a href="./review.html"><button><img class="icons"
+                                    src="https://p.kindpng.com/picc/s/148-1488998_edit-pencil-skills-icon-for-resume-png-transparent.png"
+                                    alt=""> Review</button></a>
+                        <a href="#"><button><img class="icons"
+                                    src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="">
+                                Trips</button></a>
+                        <a href="#"><button><img class="icons"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4v9y4JQp_l4q0lSyQYe3vCgmtqNyEpVN_Ew&usqp=CAU"
+                                    alt="">Alert</button></a>
+                        <a href="./signIn.html"><button id="signin">Sign In</button></a>
+                        <a href="#"><button><img class="icons"
+                                    src="https://www.pngitem.com/pimgs/m/174-1749315_shopping-cart-buy-online-icon-png-transparent-png.png"
+                                    alt="">Basket</button></a>
+                    </div>
+                </nav>
+        
+            <div class="task1" id="reviewOptions">
+                <button><a href="">Hotels</a><img class="icons"
+                        src="https://www.freeiconspng.com/thumbs/bedroom-icon/bedroom-icon-13.png" alt=""></button>
+                <button><a href="">Holiday Homes</a><img class="icons"
+                        src="https://png.pngtree.com/png-vector/20191024/ourmid/pngtree-house-key-line-icon-vector-png-image_1859184.jpg"
+                        alt=""></button>
+                <button><a href="">Things to Do</a><img class="icons"
+                        src="https://www.freeiconspng.com/thumbs/list-icon/ingredients-list-icon--icon-search-engine-10.png"
+                        alt=""></button>
+                <button><a href="">Restauants</a><img class="icons"
+                        src="https://www.pngfind.com/pngs/m/5-58345_png-file-knife-and-fork-icon-free-transparent.png"
+                        alt=""></button>
+                <button><a href="">Travel Stories</a><img class="icons"
+                        src="https://www.freeiconspng.com/thumbs/website-icon/website-icon-8.png" alt=""></button>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">More</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="task2 responsive">
+                <img role="none" src="https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp">
+                <input id="search" type="" type="submit" placeholder="&#128269;Where To">
+            </div>
+            <!-- <div class="task3">
+    <h1>Your recent searches</h1>
+    <div id="recentSearches"></div>
+</div> -->
+            <div class="task4">
+                <div id="seeTheList">
+                    <h2>Get out there</h2>
+                    <p>Best of the Best tours, attractions& activities you won't want to miss.</p>
+                    <button>See the List</button>
+                </div>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/f7/1d/4d/caption.jpg?w=1000&h=-1&s=1"
+                    alt="">
+            </div>
+            <div class="task5">
+                <div class="Best-Tours">
+                    <h1>Top experiences on Tripadvisor</h1>
+                    <p>The best tours, activities and tickets.</p>
+                    <div class="grp1">
+                        <div class="card num1">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/67/e5/07/caption.jpg?w=300&h=300&s=1"
+                                alt="mahabalipuram"></img>
+                            <h3 class="desc">Private Taj Mahal Tour from Delhi by Car - All Inclusive</h3>
+                            <h5 class="price">from ₹5,254 per adult</h5>
+                            <button class="like-Btn"><img  src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="">
+                            </button>
+                        </div>
+                        <div class="card num2">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/15/08/73/caption.jpg?w=300&h=300&s=1"
+                                alt="mahabalipuram"></img>
+                            <h3 class="desc">Private Tour to Half-Day Railway Market</h3>
+                            <h5 class="price">from ₹2,254 per adult</h5>
+                            <button class="like-Btn"><img  src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="">
+                            </button>
+
+                        </div>
+                        <div class="card num3">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/91/ce/71/prayer-flags-to-loved.jpg?w=300&h=300&s=1"
+                                alt="mahabalipuram"></img>
+                            <h3 class="desc">Best Half-Day DMZ Tour from Seoul</h3>
+                            <h5 class="price">from ₹5,354 per adult</h5>
+                            <button class="like-Btn"><img  src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="">
+                            </button>
+
+                        </div>
+                        <div class="card num4">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/fa/1f/ae/caption.jpg?w=300&h=300&s=1"></img>
+                            <h3 class="desc">Phi-Phi islands Adventure Day trip Seaview Marine</h3>
+                            <h5 class="price">from ₹6,600 per adult</h5>
+                            <button class="like-Btn"><img  src="https://www.iconpacks.net/icons/2/free-heart-icon-3510-thumb.png" alt="">
+                            </button>
+
+                        </div>
+                    </div>
+                    <!-- <div class="grp2">
+        <div class="card num5">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/fa/1f/ae/caption.jpg?w=300&h=300&s=1"></img>
+            <h3 class="desc">Phi-Phi islands Adventure Day trip Seaview Marine</h3>
+            <h5 class="price">from ₹6,600 per adult</h5>
+        </div>
+        <div class="card num6">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/57/51/b2/caption.jpg?w=300&h=300&s=1" alt="mahabalipuram"></img>
+            <h3 class="desc">Local heritage and Architecture tour of Chennai (Madras)</h3>
+                <h5 class="price">from ₹2,166 per adult</h5>
+        </div>
+
+        <div class="card num7">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7d/c6/7c/caption.jpg?w=300&h=300&s=1" alt="mahabalipuram"></img>
+            <h3 class="desc">Chennai Museum walk with Archaeologist</h3>
+            <h5 class="price">from ₹5,333 per adult</h5>
+        </div>
+
+        <div class="card num8">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/2d/b8/caption.jpg?w=300&h=300&s=1" alt=""></img>
+            <h3 class="desc">kanchipuram day trip</h3>
+            <h5 class="price">from ₹7,000 per adult</h5>
+        </div>
+        <span class="arrow prev">&#10094;</span>
+        <span class="arrow next">&#10095;</span>
+    </div> -->
+                </div>
+            </div>
+            <div class="task6">
+                <h1>Ring in the new year</h1>
+                <p>New Year's Eve spots to welcome 2023</p>
+                <div id="NewYear">
+                    <div class="new1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6d/df/ec/fireworks-yao-rooftop.jpg?w=300&h=300&s=1"
+                            alt="">
+                        <h2 class="city">Bangkok, Thailand</h2>
+
+                    </div>
+                    <div class="new2">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/62/c3/88/caption.jpg?w=300&h=300&s=1"
+                            alt="">
+                        <h2 class="city">Kyoto, Japan</h2>
+
+                    </div>
+                    <div class="new3">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f3/33/caption.jpg?w=300&h=300&s=1"
+                            alt="">
+                        <h2 class="city">Taipei, Taiwan</h2>
+
+                    </div>
+                    <div class="new4">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/7b/23/c5/photo2jpg.jpg?w=300&h=-1&s=1"
+                            alt="">
+                        <h2 class="city">Seoul, South Korea</h2>
+
+                    </div>
+                    <!-- <script src="./script/index.js"></script> -->
+                </div>
+            </div>
+
+            <div class="task7">
+                <div class="box">
+                    <h1>More to explore</h1>
+                    <div class="explore1">
+                        <div class="pic">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/ff/64/b3/b1e43685-a4e8-4163.jpg?w=700&h=500&s=1"
+                                alt="">
+                            <h3><a href="#">Best new things to do in Japan in 2022</a></h3>
+                        </div>
+                        <div class="pic">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/ff/65/7b/3f7b9f66-88a6-40e8.jpg?w=700&h=500&s=1"
+                                alt="">
+                            <h3><a href="#">7 Bangkok hotels that highlight Thailand's spectacular architecture</a></h3>
+                        </div>
+                        <div class="pic">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/ff/b7/8b/b03fabe4-8177-471a.jpg?w=700&h=-1&s=1"
+                                alt="">
+                            <h3><a href="#">Guide to planning a say trip to the Blue Mountains from Sydney</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="task8">
+                <h1>Top destinations in Chennai</h1>
+                <p>Book these experiences for a close-up look at Chennai (Madras)</p>
+
+                <div class="sam">
+                    <div class="card1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/56/5d/8b/caption.jpg?w=300&h=300&s=1"
+                            alt="mahabalipuram"></img>
+                        <h3 class="desc">Private Tour to kanchipuram and Mahabalipuram from Chennai</h3>
+                        <h5 class="price">from ₹4,600 per adult</h5>
+                    </div>
+                    <div class="card2">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/57/51/b2/caption.jpg?w=300&h=300&s=1"
+                            alt="mahabalipuram"></img>
+                        <h3 class="desc">Local heritage and Architecture tour of Chennai (Madras)</h3>
+                        <h5 class="price">from ₹2,166 per adult</h5>
+                    </div>
+
+                    <div class="card3">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/7d/c6/7c/caption.jpg?w=300&h=300&s=1"
+                            alt="mahabalipuram"></img>
+                        <h3 class="desc">Chennai Museum walk with Archaeologist</h3>
+                        <h5 class="price">from ₹5,333 per adult</h5>
+                    </div>
+
+                    <div class="card4">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/2d/b8/caption.jpg?w=300&h=300&s=1"
+                            alt=""></img>
+                        <h3 class="desc">kanchipuram day trip</h3>
+                        <h5 class="price">from ₹7,000 per adult</h5>
+                    </div>
+                </div>
+            </div>
+
+        <!-- </div> -->
+
+        <div class="travellers">
+            <div>
+                <img src="https://static.tacdn.com/img2/travelers_choice/TC_logomark_solid_cream.svg" alt="">
+                <h1>Travellers' Choice Best of the Best</h1>
+                <button>See the winners</button>
+            </div>
+            <div class="pics"></div>
+        </div>
+        <div id="Footer">
+            <div id="inner">
+                <div class="foot1">
+                    <div class="about">
+                        <p>About Tripwiser</p>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Resources and Policies</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Trust $ Safety</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Accessibility Statement</a></li>
+
+                    </div>
+                    <div class="explore">
+                        <p>Explore</p>
+                        <li><a href="#">Write a review</a></li>
+                        <li><a href="#">Add a Place</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Travellers' Choice</a></li>
+                        <li><a href="#">GreenLeaders</a></li>
+                        <li><a href="#">Help Centre</a></li>
+                        <li><a href="#">Travel Articles</a></li>
+
+                    </div>
+                    <div class="businessApp">
+                        <p>Do Business With Us</p>
+                        <li><a href="#">Owners & DMO/CVB</a></li>
+                        <li><a href="#">Business Advantage</a></li>
+                        <li><a href="#">Sponsored Placements</a></li>
+                        <li><a href="#">Access our Content API</a></li>
+
+                        <p>Get The App</p>
+                        <li><a href="#">iPhone App</a></li>
+                        <li><a href="#">Android App</a></li>
+
+                    </div>
+                </div>
+                <div class="foot2">
+                    <div class="img">
+                        <img id="logoimg" src="logo.png" alt="">
+                    </div>
+                    <div class="query">
+                        <p>2022 Tripwiser LLC All rights reserved.</p>
+                        <a href="#">Terms of use</a>
+                        <a href="#">Privacy and Cookie Statement</a>
+                        <a href="#">Cookie consent</a>
+                        <a href="#">Site Map</a>
+                        <a href="#">How the site works</a>
+                        <a href="#">Contact us</a>
+
+                    </div>
+                    <div class="inr">
+                        <select id="currency">
+                            <option value="">INR</option>
+
+                        </select>
+
+                        <select id="country">
+                            <option value="">India</option>
+                        </select>
+                    </div>
+                </div>
+                <p>This is the version of our website addressed to speakers of English in India. If you are a resident
+                    of another country or region, please select the appropriate version of Tripadvisor for your country
+                    or region in the drop-down menu. <a href="#">more</a>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

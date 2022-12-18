@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trip Sans VF", "Trip Sans" , Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+    padding: 1.5%;
+}
+.logo{
+    display: flex;
+    margin: auto;
+}
+#logoimg{
+    width: 50px;
+    border-radius: 30px;
+    margin: 0;
+}
+.keys > a >button:hover{
+   background-color: rgb(185, 177, 177);
+   cursor: pointer;
+}
+.keys{
+    display: inline-block;
+    margin: 0 20px;
+    margin: auto;
+    border-radius: 5px;
+}
+.keys>a>button{
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+    height: 45px;
+}
+
+.dropbtn {
+   
+    width: 100px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    height: 45px;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(185, 177, 177);
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .show {display:block;}
+
+
+
+#signin{
+    width: 100px;
+    color: #FFFFFF;
+    background-color: black;
+    font-size: 16px;
+    border-radius: 20px;
+    height: 45px;
+}
+.keys>a{
+    margin: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.icons{
+    width: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#reviewOptions{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+#reviewOptions > button:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+#reviewOptions > button{
+    cursor: pointer;
+    background-color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#reviewOptions > button > a:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+#reviewOptions > button > a{
+    text-decoration: none;
+    color: black;
+}
+.responsive{
+     margin: auto;
+     margin-top: 3%;
+     width: 80%;
+} 
+.responsive > img{
+    width: 100%;
+}
+ #search{
+   margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    align-items: center;
+    width: 55%;
+    height: 60px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 0;
+    padding-left: 10px;
+}
+.task4{
+    margin: auto;
+    width: 80%;
+    margin-top: 4%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAF1ED;
+}
+#seeTheList{
+    padding: 30px;
+
+}
+#seeTheList>button{
+    width: 120px;
+    height: 40px;
+    font-size: 17 px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    margin: 30px;
+}
+.task4>img{
+height: 100%;
+width: 40%;
+}
+.task5{
+    width: 80%;
+    margin-top: 6%;
+    margin: auto;
+}
+.Best-Tours{
+    width: 80%;
+    margin-top: 6%;
+}
+.Best-Tours > div{
+    display: flex;
+    width: 18%;
+}
+.Best-Tours > div > div{
+    margin: 2%;
+}
+.like-Btn{
+    cursor: pointer;
+    position: absolute;
+    top: 130%;
+    width: 40px;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.like-Btn > img{
+    
+    background-color: #fff;
+    width:30px;
+    height:30px;
+    border-radius:20px;
+}
+/* .arrow{
+    
+    cursor: pointer;
+    position: absolute;
+    top:100%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+} */
+.task6{
+    width: 80%;
+    padding-top: 6%;
+    margin: auto;
+}
+#NewYear{
+    display: flex;
+}
+#NewYear > div{
+    margin: 0.5%;
+}
+.city{
+    position: static;
+    position: absolute;
+    top: 230%;
+    color: #FFFFFF;    
+    padding-left: 10px;
+}
+.task7{
+    width: 100%;
+    background-color: #FAF1ED;
+    height: 450px;
+    margin-top: 6%;
+}
+.box{
+    width: 80%;
+    margin: auto;
+}
+.explore1{
+    display: flex;  
+}
+.explore1 > div{ 
+    width: 40%;
+    margin: 2%;
+   background-color: white;
+}
+.explore1 > div >img{
+    height: 100%;
+    width: 100%;
+}
+.task8{
+    width: 80%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.sam{
+    display: flex;
+}
+.sam > div{
+    margin: 0.5%;
+    
+}
+.travellers{
+    padding-top: 4%;
+    margin: auto;
+    display: flex;
+    height: 450px;
+    background-color: rgb(15, 72, 15);
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.travellers> div{
+    width: 30%;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+}
+.travellers> div>img{
+    width: 80px;
+}
+.travellers> div>button{
+    width: 120px;
+    height: 40px;
+    font-size: 17 px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+#Footer{
+   background-color: #FAF1ED;
+   padding-bottom: 2%;
+}
+#inner{
+    width: 80%;
+    margin: auto;
+
+}
+.foot1{
+    display: flex;
+    margin: 2%;
+}
+.foot1>div{
+    margin: 1%;
+}
+.foot1>div>p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.foot1>div>li{
+    list-style: none;
+}
+.foot1>div>li>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+     
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+}.img{
+    margin: 0;
+}
+.query>a{
+    font-weight: 20px;
+    font-size: 18px;
+    color: black;
+    padding: 2%;
+}
+.inr{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#NewYear{
+     display: flex;
+}
+.inr>select{
+    display: flex;
+    margin: 5%;
+    width: 180px;
+    height: 30px;
+    font-weight: bolder;
+    border-color:  rgb(241, 238, 238);
+    border-radius: 10px;
+}
